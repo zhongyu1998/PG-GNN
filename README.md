@@ -1,6 +1,6 @@
 # Permutation Group Based Graph Neural Networks (PG-GNN)
 
-The official implementation of **[Going Deeper into Permutation-Sensitive Graph Neural Networks](https://arxiv.org/abs/2205.14368) (ICML 2022)**.
+The official implementation of **[Going Deeper into Permutation-Sensitive Graph Neural Networks](https://proceedings.mlr.press/v162/huang22l.html) (ICML 2022)**.
 <!-- The complete illustrations of Figures 8(a) and 8(b) are provided in the folder `figures`. -->
 
 ![Figure 8(a)](figures/process_K5.png)
@@ -202,22 +202,17 @@ Please feel free to contact Zhongyu Huang (huangzhongyu2020@ia.ac.cn) if you hav
 
 If you find this code or our PG-GNN paper helpful for your research, please cite our paper:
 
-```
-@article{huang2022going,
-  title   = {Going Deeper into Permutation-Sensitive Graph Neural Networks},
-  author  = {Huang, Zhongyu and Wang, Yingheng and Li, Chaozhuo and He, Huiguang},
-  journal = {arXiv preprint arXiv:2205.14368},
-  year    = {2022}
-}
-```
-
-or
-
-```
+```bibtex
 @inproceedings{huang2022going,
   title     = {Going Deeper into Permutation-Sensitive Graph Neural Networks},
   author    = {Huang, Zhongyu and Wang, Yingheng and Li, Chaozhuo and He, Huiguang},
-  booktitle = {International Conference on Machine Learning},
-  year      = {2022}
+  booktitle = {Proceedings of the 39th International Conference on Machine Learning},
+  pages     = {9377--9409},
+  year      = {2022},
+  editor    = {Chaudhuri, Kamalika and Jegelka, Stefanie and Song, Le and Szepesvari, Csaba and Niu, Gang and Sabato, Sivan},
+  volume    = {162},
+  series    = {Proceedings of Machine Learning Research},
+  month     = {17--23 Jul},
+  publisher = {PMLR}
 }
 ```
